@@ -6,8 +6,8 @@ import java.util.concurrent.atomic.LongAdder;
 
 public class Shop {
     LongAdder sum = new LongAdder ();
-    final int minValue = 3;
-    final int maxValue = 10000;
+    static final int minValue = 3;
+    static final int maxValue = 10000;
 
     public void taxGenerator(){
         Random random = new Random ();
